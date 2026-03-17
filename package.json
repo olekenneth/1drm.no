@@ -1,0 +1,26 @@
+{
+  "name": "1drm.no",
+  "version": "1.0.0",
+  "description": "Static website for 1. Drøm Speidergruppe, built with Eleventy",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olekenneth/1drm.no.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/olekenneth/1drm.no/issues"
+  },
+  "homepage": "https://github.com/olekenneth/1drm.no#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
