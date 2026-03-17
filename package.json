@@ -1,7 +1,7 @@
 {
   "name": "1drm.no",
   "version": "1.0.0",
-  "description": "Static website for 1. Drøm Speidergruppe, built with Eleventy",
+  "description": "Static website for 1. Drammen Speidergruppe, built with Eleventy",
   "private": true,
   "scripts": {
     "build": "eleventy",

@@ -1,6 +1,6 @@
 # 1drm.no
 
-Static website for **1. Drøm Speidergruppe**, built with [Eleventy (11ty)](https://www.11ty.dev/).
+Static website for **1. Drammen Speidergruppe**, built with [Eleventy (11ty)](https://www.11ty.dev/).
 
 ## Getting started
 
@@ -34,11 +34,7 @@ src/
 │   └── base.njk          # Base HTML layout (Nunjucks)
 ├── css/
 │   └── style.css         # Global stylesheet
-├── index.md              # Home page
-├── om-oss/index.md       # About page
-├── aktiviteter/index.md  # Activities page
-├── bli-speider/index.md  # Join page
-└── kontakt/index.md      # Contact page
+└── index.md              # Home page
 .eleventy.js              # Eleventy configuration
 ```
 

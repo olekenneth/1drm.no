@@ -1,5 +1,5 @@
 /* ============================================================
-   1. Drøm Speidergruppe – global stylesheet
+   1. Drammen Speidergruppe – global stylesheet
    ============================================================ */
 
 /* ---- Reset & base ---- */
@@ -133,6 +133,13 @@ strong { color: #1a2e1a; }
   transition: background 0.15s, transform 0.1s;
 }
 .hero .btn:hover { background: #c8e6c9; transform: translateY(-1px); }
+.hero .btn-outline {
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.7);
+}
+.hero .btn-outline:hover { background: rgba(255,255,255,0.15); color: #fff; }
+.hero-links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem; }
 
 /* ---- Cards ---- */
 .cards {
