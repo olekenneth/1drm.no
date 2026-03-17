@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if title %}{{ title }} – 1. Drammen Speidergruppe{% else %}1. Drammen Speidergruppe{% endif %}</title>
+    <meta
+      name="description"
+      content="{% if description %}{{ description }}{% else %}1. Drammen Speidergruppe – speiding på Øren og Bragernes i Drammen.{% endif %}"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="/" class="site-logo">
+          <span class="logo-icon">⚜</span>
+          <span class="logo-text">1. Drammen Speidergruppe</span>
+        </a>
+        <nav class="site-nav" aria-label="Hovedmeny">
+          <ul>
+            <li><a href="/">Hjem</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <div class="container">{{ content | safe }}</div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; {{ '' | date('yyyy') }} 1. Drammen Speidergruppe &bull;
+          <a href="mailto:post@1drm.no">post@1drm.no</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
