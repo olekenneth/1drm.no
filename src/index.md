@@ -5,10 +5,10 @@ description: 1. Drammen Speidergruppe driver speiding på Øren og Bragernes. Vi
 ---
 
 <div class="hero">
-  <h1><img src="/images/logo.png" alt="1. Drammen Speidergruppe logo" class="logo-icon" /> 1. Drammen Speidergruppe</h1>
+  <h1>1. Drammen Speidergruppe</h1>
   <div class="hero-links">
-    <a href="https://min.speiding.no/register/in/group/2301" class="btn" target="_blank" rel="noopener">Meld deg inn</a>
-    <a href="https://spond.com/landing/group/QWKHM" class="btn btn-outline" target="_blank" rel="noopener">Bli med på Spond</a>
+    <a href="https://spond.com/landing/group/QWKHM" class="btn" target="_blank" rel="noopener">Bli med på Spond</a>
+    <a href="https://min.speiding.no/register/in/group/2301" class="btn btn-outline" target="_blank" rel="noopener">Meld deg inn</a>
   </div>
 </div>
 
