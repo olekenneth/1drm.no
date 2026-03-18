@@ -73,7 +73,12 @@ strong { color: #1a2e1a; }
 }
 .site-logo:hover { color: #c8e6c9; }
 
-.logo-icon { font-size: 1.4rem; }
+.logo-icon {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  flex-shrink: 0;
+}
 
 /* ---- Navigation ---- */
 .site-nav ul {
