@@ -236,6 +236,27 @@ strong { color: #1a2e1a; }
 }
 .contact-card h3 { color: #2d6a2d; font-size: 1rem; margin-top: 0; }
 
+/* ---- Plastdugnaden banner ---- */
+.banner-plastdugnaden {
+  display: block;
+  margin: 2rem auto;
+  max-width: 480px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(0,119,182,0.25);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.banner-plastdugnaden:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,119,182,0.35);
+}
+.banner-plastdugnaden img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* ---- Footer ---- */
 .site-footer {
   background: #1a2e1a;
