@@ -13,6 +13,10 @@ description: 1. Drammen Speidergruppe driver speiding på Øren og Bragernes.
   </div>
 </div>
 
+<a href="https://plastdugnaden.no" class="banner-plastdugnaden" target="_blank" rel="noopener" aria-label="Vi deltar på Plastdugnaden 2026 – les mer på plastdugnaden.no">
+  <img src="/images/plastdugnaden-2026-banner.svg" alt="1. Drammen Speidergruppe deltar på Plastdugnaden 2026 – bli med og rydd plast fra naturen!" width="800" height="200">
+</a>
+
 <div class="cards">
   <div class="card">
     <h3>🕐 Møtetid</h3>
