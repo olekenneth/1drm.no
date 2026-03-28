@@ -13,8 +13,8 @@ description: 1. Drammen Speidergruppe driver speiding på Øren og Bragernes.
   </div>
 </div>
 
-<a href="https://plastdugnaden.no" class="banner-plastdugnaden" target="_blank" rel="noopener" aria-label="Vi deltar på Plastdugnaden 2026 – les mer på plastdugnaden.no">
-  <img src="/images/plastdugnaden-2026-banner.svg" alt="1. Drammen Speidergruppe deltar på Plastdugnaden 2026 – bli med og rydd plast fra naturen!" width="800" height="200">
+<a href="https://handelensmiljofond.no/plastdugnaden" class="banner-plastdugnaden" target="_blank" rel="noopener" aria-label="Vi er med på Plastdugnaden 2026 – les mer på handelensmiljofond.no">
+  <img src="https://github.com/user-attachments/assets/d0735de1-ae78-4902-a64f-5ec6b0172f70" alt="Vi er med på Plastdugnaden!! Tusen takk til Sparebankstiftelsen Buskerud Vestfold. Bli med du også på handelensmiljofond.no" width="1000" height="1250">
 </a>
 
 <div class="cards">
