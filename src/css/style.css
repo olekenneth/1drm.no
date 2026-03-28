@@ -274,7 +274,8 @@ strong { color: #1a2e1a; }
   .hero h1 { font-size: 1.9rem; }
   .hero { padding: 2rem 1.25rem; }
   .banner-plastdugnaden {
-    max-width: min(260px, 72vw);
+    width: 100%;
+    max-width: 260px;
     margin: 1rem auto;
   }
 }
