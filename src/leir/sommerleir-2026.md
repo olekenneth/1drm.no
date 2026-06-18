@@ -27,12 +27,21 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
 
 ## Program
 
-<ul class="activity-list">
-  <li><strong>Dag 1</strong>Ankomst, sette opp leir og bli kjent</li>
-  <li><strong>Dag 2</strong>Friluftsaktiviteter, bål og matlaging ute</li>
-  <li><strong>Dag 3</strong>Tur, vannaktiviteter og leirbål om kvelden</li>
-  <li><strong>Dag 4</strong>Rydding, pakking og henting</li>
-</ul>
+<div class="table-scroll">
+
+| Tid | Onsdag | Torsdag | Fredag | Lørdag | Søndag |
+| --- | --- | --- | --- | --- | --- |
+| 08:00 |  | Revelje/flaggheis | Revelje/flaggheis | Revelje på haik | Revelje/flaggheis |
+| 08:30 |  | Frokost | Frokost | Frokost på haik | Frokost |
+| 10:00 |  | Verdens ende | Pil og bue-laging | Haik | Nedrigg |
+| 12:30 | Lunsj | Lunsj på Verdens ende | Lunsj | Lunsj på leir | Lunsj |
+| 14:00 | Lek/rigging | Rebusløp | Haik | Aktivitet til leirbål | Hjemreise |
+| 16:00 | Middag | Middag | Middag på haik | Middag |  |
+| 17:00 | Kiosk | Kiosk | Haik | Kiosk |  |
+| 20:00 | Leirbål | Leirbål | Haik | Avslutningsleirbål |  |
+| 22:00 | Ro | Ro | Ro | Ro |  |
+
+</div>
 
 ## Pakkeliste
 
