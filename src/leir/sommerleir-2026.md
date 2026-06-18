@@ -62,6 +62,10 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
 </div>
 
 <div class="info-box">
+  <p>Vi tar med redningsvester, men de kan være store for de aller minste.</p>
+</div>
+
+<div class="info-box">
   <p>Merk alt utstyr med navn. Mobil og verdisaker tas med på eget ansvar. Gi
   beskjed om allergier, medisiner eller spesielle behov til en leder på forhånd.</p>
 </div>
