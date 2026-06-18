@@ -11,18 +11,17 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
   <p class="subtitle">Praktisk informasjon for deltakere og foreldre</p>
 </div>
 
-<div class="info-box">
-  <p><strong>Denne siden er kun for påmeldte.</strong> Den er ikke søkbar og deles
-  via direktelenke. All påmelding skjer på <a href="https://spond.com/landing/group/QWKHM" target="_blank" rel="noopener">Spond</a>.</p>
-</div>
+<p class="btn-center">
+  <a class="btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdn5SOVVW9iwyD-CHUcEJceULwcQ_sdnw7iaXoFPLQiwSw-KA/viewform?usp=dialog" target="_blank" rel="noopener">Meld deg på sommerleiren</a>
+</p>
 
 ## Når og hvor
 
 <ul class="activity-list">
-  <li><strong>Dato</strong>Oppdateres – se Spond</li>
-  <li><strong>Sted</strong>Oppdateres – se Spond</li>
-  <li><strong>Oppmøte</strong>Oppdateres – se Spond</li>
-  <li><strong>Henting</strong>Oppdateres – se Spond</li>
+  <li><strong>Dato</strong>Onsdag 29. juli – søndag 2. august 2026</li>
+  <li><strong>Sted</strong><a href="https://friluftsliv.oslofjorden.org/hytteoversikt/tjonneberget" target="_blank" rel="noopener">Tjønneberget, Hvasser</a></li>
+  <li><strong>Oppmøte</strong>Onsdag 29. juli kl. 12:00</li>
+  <li><strong>Henting</strong>Søndag 2. august kl. 14:00</li>
 </ul>
 
 ## Program
@@ -45,23 +44,21 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
 
 ## Pakkeliste
 
-<div class="cards">
-  <div class="card">
-    <h3>🎒 Klær</h3>
-    <p>Skift for alle dager, regntøy, varm genser, lue, votter, gode sko og støvler.</p>
-  </div>
-  <div class="card">
-    <h3>🛏️ Soving</h3>
-    <p>Sovepose, liggeunderlag, putetrekk og kosedyr om ønskelig.</p>
-  </div>
-  <div class="card">
-    <h3>🍽️ Spising</h3>
-    <p>Kopp, tallerken, bestikk og drikkeflaske – gjerne merket med navn.</p>
-  </div>
-  <div class="card">
-    <h3>🧴 Toalettsaker</h3>
-    <p>Tannbørste, tannkrem, håndkle, solkrem og myggmiddel.</p>
-  </div>
+<div class="card">
+
+- Krabbefiske-utstyr, hvis du har
+- Badeutstyr, tøy, snorkel/dykkemaske, armringer
+- Badesko
+- Gode sko eller støvler
+- Regntøy etter værmelding
+- Skift/klær
+- Speiderskjorte/skjerf
+- Sovepose
+- Liggeunderlag
+- Kopp, tallerken, bestikk og drikkeflaske
+- Toalettsaker: tannbørste, tannkrem, håndkle, solkrem og myggmiddel
+- Evt. telt
+
 </div>
 
 <div class="info-box">
@@ -69,11 +66,26 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
   beskjed om allergier, medisiner eller spesielle behov til en leder på forhånd.</p>
 </div>
 
+## Annen praktisk info
+
+<div class="cards">
+  <div class="card">
+    <h3>Kiosk</h3>
+    <p>Hver kveld arrangerer vi en liten kiosk. Send med litt penger så barna kan handle.</p>
+  </div>
+  <div class="card">
+    <h3>Mobiltelefon</h3>
+    <p>Vi samler inn telefonene under leiren slik at de ikke er tilgjengelige. Vurder derfor om det er nødvendig å ha den med.</p>
+  </div>
+</div>
+
 ## Kontakt
 
 <div class="contact-grid">
   <div class="contact-card">
-    <h3>Spørsmål?</h3>
-    <p>Ta kontakt med en leder på <a href="https://spond.com/landing/group/QWKHM" target="_blank" rel="noopener">Spond</a>.</p>
+    <h3>Kontakt under leiren</h3>
+    <p>Lederne har liste med kontaktpersoner og telefonnummer. Trenger du å komme i kontakt med barnet ditt, ring:</p>
+    <p><strong>Ole-Kenneth:</strong> <a href="tel:+4790091999">900 91 999</a><br>
+    <strong>Ida:</strong> <a href="tel:+4748142778">481 42 778</a></p>
   </div>
 </div>

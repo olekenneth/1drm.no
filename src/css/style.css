@@ -206,6 +206,22 @@ strong { color: #1a2e1a; }
 }
 .cta .btn:hover { background: #c8e6c9; }
 
+/* ---- Standalone button ---- */
+.btn-primary {
+  display: inline-block;
+  background: #2d6a2d;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(45,106,45,0.25);
+  transition: background 0.15s, transform 0.1s;
+}
+.btn-primary:hover { background: #1b4d1b; color: #fff; transform: translateY(-1px); }
+.btn-center { text-align: center; margin: 1.5rem 0; }
+
 /* ---- Activity list ---- */
 .activity-list {
   list-style: none;
