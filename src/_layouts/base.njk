@@ -8,6 +8,7 @@
       name="description"
       content="{% if description %}{{ description }}{% else %}1. Drammen Speidergruppe – speiding på Øren og Bragernes i Drammen.{% endif %}"
     />
+    {% if noindex %}<meta name="robots" content="noindex, nofollow" />{% endif %}
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="icon" type="image/png" href="/images/logo.png" />
   </head>
@@ -20,7 +21,8 @@
         </a>
         <nav class="site-nav" aria-label="Hovedmeny">
           <ul>
-            <li><a href="/">Hjem</a></li>
+            <li><a href="/"{% if page.url == '/' %} aria-current="page"{% endif %}>Hjem</a></li>
+            <li><a href="/leir/"{% if page.url == '/leir/' %} aria-current="page"{% endif %}>Leir</a></li>
           </ul>
         </nav>
       </div>
