@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if title %}{{ title }}{% else %}Admin{% endif %} · 1. Drammen Speidergruppe</title>
+    {% if noindex %}<meta name="robots" content="noindex, nofollow" />{% endif %}
+    <link rel="stylesheet" href="/css/admin.css" />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+  </head>
+  <body class="admin">
+    {{ content | safe }}
+    <script src="/js/admin.js" defer></script>
+  </body>
+</html>

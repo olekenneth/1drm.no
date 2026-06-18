@@ -1,0 +1,296 @@
+/* ============================================================
+   1. Drammen Speidergruppe – admin-verktøy (program & turnus)
+   Selvstendig stil, ingen avhengighet av style.css.
+   ============================================================ */
+
+:root {
+  --green: #2d6a2d;
+  --green-dark: #1a2e1a;
+  --green-light: #c8e6c9;
+  --green-bg: #e8f5e9;
+  --bg: #f9f6f0;
+  --ink: #2c3e50;
+  --line: #d9d2c4;
+  --white: #fff;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; }
+
+body.admin {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 4rem;
+}
+
+/* ---- Top bar ---- */
+.app-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.5rem 0 1rem;
+  border-bottom: 2px solid var(--green);
+  margin-bottom: 1.25rem;
+}
+.brand { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; color: var(--green-dark); }
+.brand-logo { width: 1.9rem; height: 1.9rem; }
+.app-top-right { display: flex; align-items: center; gap: 1rem; }
+.save-status { font-size: 0.85rem; color: var(--green); min-width: 5rem; text-align: right; }
+.back-link { color: var(--green); text-decoration: none; font-size: 0.9rem; }
+.back-link:hover { text-decoration: underline; }
+
+/* ---- Editable heading ---- */
+.doc-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--green-dark);
+  line-height: 1.25;
+  padding: 0.25rem 0.4rem;
+  margin: 0 0 1rem -0.4rem;
+  border-radius: 6px;
+  outline: 2px dashed transparent;
+  transition: outline-color 0.15s, background 0.15s;
+}
+.doc-title:hover { background: rgba(0,0,0,0.03); }
+.doc-title:focus { outline-color: var(--green-light); background: var(--white); }
+.doc-title:empty::before {
+  content: attr(data-placeholder);
+  color: #999;
+  font-weight: 400;
+}
+
+/* ---- Toolbar ---- */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+.tgroup { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+
+button, .filebtn {
+  font: inherit;
+  font-size: 0.9rem;
+  background: var(--white);
+  color: var(--green-dark);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s, transform 0.05s;
+}
+button:hover, .filebtn:hover { background: var(--green-bg); border-color: var(--green); }
+button:active { transform: translateY(1px); }
+button.primary { background: var(--green); color: var(--white); border-color: var(--green); }
+button.primary:hover { background: var(--green-dark); }
+button.danger:hover { background: #fbe9e7; border-color: #c0392b; color: #c0392b; }
+
+.filebtn { display: inline-flex; align-items: center; }
+.filebtn input[type="file"] { display: none; }
+
+.drag-hint { font-size: 0.85rem; color: #777; margin-bottom: 0.6rem; }
+.grip-demo { color: var(--green); font-weight: 700; }
+
+/* ---- Table ---- */
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--white);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+table.grid {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: max-content;
+}
+
+table.grid th, table.grid td {
+  border: 1px solid var(--line);
+  padding: 0;
+  vertical-align: top;
+  position: relative;
+  min-width: 9rem;
+}
+
+/* header row */
+table.grid thead th { background: var(--green); }
+table.grid thead .cell { color: var(--white); font-weight: 700; }
+table.grid thead .cell:empty::before { color: rgba(255,255,255,0.65); }
+
+/* label column (first cell in each body row) */
+table.grid tbody th { background: var(--green-bg); }
+table.grid tbody th .cell { font-weight: 600; color: var(--green-dark); }
+
+.cell {
+  display: block;
+  padding: 0.55rem 0.7rem 0.55rem 1.5rem;
+  min-height: 2.4rem;
+  outline: none;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+.cell:empty::before {
+  content: attr(data-placeholder);
+  color: #aaa;
+}
+td .cell:focus, th .cell:focus {
+  box-shadow: inset 0 0 0 2px var(--green-light);
+  background: rgba(255,255,255,0.6);
+}
+
+/* drag handle */
+.grip {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 1.05rem;
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: #bbb;
+  cursor: grab;
+  border-radius: 4px;
+  user-select: none;
+  touch-action: none;
+}
+.grip:hover { color: var(--green); background: rgba(0,0,0,0.05); }
+thead .grip { color: rgba(255,255,255,0.7); }
+thead .grip:hover { color: var(--white); background: rgba(255,255,255,0.2); }
+
+.cell-dragging { opacity: 0.4; }
+.drop-target { box-shadow: inset 0 0 0 3px var(--green) !important; }
+
+/* drag ghost */
+.drag-ghost {
+  position: fixed;
+  z-index: 1000;
+  pointer-events: none;
+  background: var(--white);
+  border: 2px solid var(--green);
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.9rem;
+  max-width: 16rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  opacity: 0.95;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* ---- Panels ---- */
+.panel {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.25rem;
+  margin-top: 1.5rem;
+}
+.panel h2 { font-size: 1.15rem; color: var(--green-dark); margin-bottom: 0.4rem; }
+.hint { font-size: 0.88rem; color: #666; margin-bottom: 0.75rem; }
+.hint code { background: var(--bg); padding: 0.05rem 0.3rem; border-radius: 4px; }
+
+textarea {
+  width: 100%;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  resize: vertical;
+  background: var(--bg);
+  color: var(--ink);
+}
+textarea:focus { outline: 2px solid var(--green-light); background: var(--white); }
+
+.panel-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.check { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.88rem; color: #555; cursor: pointer; }
+
+.app-foot { margin-top: 2rem; font-size: 0.82rem; color: #888; text-align: center; }
+
+/* ---- Toast ---- */
+.toast {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(2rem);
+  background: var(--green-dark);
+  color: var(--white);
+  padding: 0.6rem 1.1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+  z-index: 1100;
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ---- Responsive ---- */
+@media (max-width: 600px) {
+  .doc-title { font-size: 1.5rem; }
+  .cell { min-width: 7rem; }
+}
+
+/* ============================================================
+   Utskrift – kun overskrift + tabell, svart på hvitt
+   ============================================================ */
+@media print {
+  body.admin { background: #fff; color: #000; }
+  .app { max-width: none; padding: 0; }
+  .no-print { display: none !important; }
+
+  .doc-title {
+    font-size: 22pt;
+    color: #000;
+    margin: 0 0 0.6rem 0;
+    padding: 0;
+  }
+
+  .table-wrap {
+    overflow: visible;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  table.grid { width: 100%; min-width: 0; font-size: 10.5pt; }
+  table.grid th, table.grid td {
+    border: 1px solid #000;
+    min-width: 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* repeat header on each page */
+  table.grid thead { display: table-header-group; }
+  table.grid thead th { background: #e9e9e9 !important; }
+  table.grid thead .cell { color: #000; }
+  table.grid tbody th { background: #f4f4f4 !important; }
+  table.grid tbody th .cell { color: #000; }
+  table.grid tr, table.grid td, table.grid th { break-inside: avoid; page-break-inside: avoid; }
+
+  .cell { padding: 4pt 6pt; min-height: 0; white-space: pre-wrap; }
+  .grip { display: none !important; }
+  .cell:empty::before { content: ""; }
+}

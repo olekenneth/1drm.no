@@ -1,0 +1,74 @@
+---
+title: Program- og turnusbygger
+---
+
+<div class="app">
+  <header class="app-top no-print">
+    <div class="brand">
+      <img src="/images/logo.png" alt="" class="brand-logo" />
+      <span>Program &amp; turnus</span>
+    </div>
+    <div class="app-top-right">
+      <span class="save-status" id="saveStatus" aria-live="polite"></span>
+      <a href="/" class="back-link">← Til nettsiden</a>
+    </div>
+  </header>
+
+  <h1
+    class="doc-title"
+    id="docTitle"
+    contenteditable="true"
+    spellcheck="false"
+    data-placeholder="Skriv overskrift…"
+  ></h1>
+
+  <div class="toolbar no-print" role="toolbar" aria-label="Verktøy">
+    <div class="tgroup">
+      <button type="button" data-act="template-program">Program-mal</button>
+      <button type="button" data-act="template-turnus">Turnus-mal</button>
+    </div>
+    <div class="tgroup">
+      <button type="button" data-act="row-add">+ Rad</button>
+      <button type="button" data-act="row-del">− Rad</button>
+      <button type="button" data-act="col-add">+ Kolonne</button>
+      <button type="button" data-act="col-del">− Kolonne</button>
+    </div>
+    <div class="tgroup">
+      <button type="button" data-act="clear">Tøm celler</button>
+      <button type="button" data-act="reset" class="danger">Nullstill</button>
+      <button type="button" data-act="print" class="primary">Skriv ut</button>
+    </div>
+  </div>
+
+  <p class="drag-hint no-print">Tips: dra i håndtaket <span class="grip-demo">⠿</span> øverst i en celle for å bytte to celler. Klikk i en celle for å skrive.</p>
+
+  <div class="table-wrap" id="tableWrap"></div>
+
+  <section class="panel no-print">
+    <h2>Lim inn linjer</h2>
+    <p class="hint">Hver linje fyller neste <strong>ledige</strong> celle (venstre → høyre, topp → bunn). Tomt for plass legger til nye rader automatisk.</p>
+    <textarea id="pasteBox" rows="5" spellcheck="false" placeholder="Én verdi per linje…&#10;Bål&#10;Matlaging&#10;Førstehjelp"></textarea>
+    <div class="panel-actions">
+      <button type="button" data-act="paste-fill" class="primary">Fyll inn i ledige celler</button>
+      <button type="button" data-act="paste-clear">Tøm boks</button>
+      <label class="check"><input type="checkbox" id="pasteIncludeLabel" /> Inkluder venstre kolonne</label>
+    </div>
+  </section>
+
+  <section class="panel no-print">
+    <h2>Markdown – import &amp; eksport</h2>
+    <p class="hint">Tabellen genererer Markdown nederst. Lim inn eller åpne en <code>.md</code> i samme format og trykk <strong>Importer</strong> for å bygge tabellen på nytt.</p>
+    <div class="panel-actions">
+      <button type="button" data-act="md-copy" class="primary">Kopier</button>
+      <button type="button" data-act="md-download">Last ned .md</button>
+      <button type="button" data-act="md-import">Importer</button>
+      <label class="filebtn">Åpne .md…<input type="file" id="fileInput" accept=".md,.markdown,.txt,text/markdown,text/plain" /></label>
+      <label class="check"><input type="checkbox" id="boldLabels" /> Fet venstre kolonne</label>
+    </div>
+    <textarea id="markdownBox" rows="12" spellcheck="false" aria-label="Markdown"></textarea>
+  </section>
+
+  <footer class="app-foot no-print">
+    Arbeidet lagres automatisk i denne nettleseren. Bruk «Last ned .md» for varig lagring eller deling.
+  </footer>
+</div>
