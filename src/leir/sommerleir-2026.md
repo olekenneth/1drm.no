@@ -20,7 +20,7 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
 <ul class="activity-list">
   <li><strong>Dato</strong>Onsdag 29. juli – søndag 2. august 2026</li>
   <li><strong>Sted</strong><a href="https://friluftsliv.oslofjorden.org/hytteoversikt/tjonneberget" target="_blank" rel="noopener">Tjønneberget, Hvasser</a></li>
-  <li><strong>Oppmøte</strong>Onsdag 29. juli kl. 12:00</li>
+  <li><strong>Oppmøte</strong>Øren skole, onsdag 29. juli kl. 11:45</li>
   <li><strong>Henting</strong>Søndag 2. august kl. 14:00</li>
 </ul>
 
