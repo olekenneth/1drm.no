@@ -28,10 +28,6 @@ description: 1. Drammen Speidergruppe driver speiding på Øren og Bragernes.
   </div>
 </div>
 
-<a href="https://handelensmiljofond.no/" class="banner-plastdugnaden" target="_blank" rel="noopener" aria-label="Vi er med på Plastdugnaden 2026 – les mer på handelensmiljofond.no">
-  <img src="https://github.com/user-attachments/assets/d0735de1-ae78-4902-a64f-5ec6b0172f70" alt="Vi er med på Plastdugnaden!! Tusen takk til Sparebankstiftelsen Buskerud Vestfold. Bli med du også på handelensmiljofond.no" width="1000" height="1250">
-</a>
-
 ## Om oss
 
 Vi har de fleste møter utendørs og driver med alt fra bål, friluftsliv, matlaging ute, førstehjelp, frilek osv. Vi drar på hytteturer og overnattingsturer i helger, og på sommeren arrangerer vi speiderleir.
