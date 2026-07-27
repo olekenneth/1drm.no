@@ -30,14 +30,14 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
 
 | Tid | Onsdag | Torsdag | Fredag | Lørdag | Søndag |
 | --- | --- | --- | --- | --- | --- |
-| 08:00 |  | Revelje/flaggheis | Revelje/flaggheis | Revelje på haik | Revelje/flaggheis |
-| 08:30 |  | Frokost | Frokost | Frokost på haik | Frokost |
-| 10:00 |  | Verdens ende | Pil og bue-laging | Haik | Nedrigg |
-| 12:30 | Lunsj | Lunsj på Verdens ende | Lunsj | Lunsj på leir | Lunsj |
-| 14:00 | Lek/rigging | Rebusløp | Haik | Aktivitet til leirbål | Hjemreise |
-| 16:00 | Middag | Middag | Middag på haik | Middag |  |
-| 17:00 | Kiosk | Kiosk | Haik | Kiosk |  |
-| 20:00 | Leirbål | Leirbål | Haik | Avslutningsleirbål |  |
+| 08:00 |  | Revelje/flaggheis | Revelje/flaggheis | Revelje/flaggheis | Revelje/flaggheis |
+| 08:30 |  | Frokost | Frokost | Frokost | Frokost |
+| 10:00 |  | Verdens ende | Haik | Pil og bue-laging | Nedrigg/lunsj |
+| 12:30 |  | Lunsj på Verdens ende | Lunsj | Lunsj | Lunsj/avreise |
+| 14:00 | Lunsj | Tur til Moutmarka | Haik | Aktivitet til leirbål | Avslutning på Øren skole |
+| 16:00 | Middag | Middag | Middag | Middag |  |
+| 17:00 | Kiosk | Kiosk | Kiosk | Kiosk |  |
+| 20:00 | Leirbål | Leirbål | Leirbål | Avslutningsleirbål |  |
 | 22:00 | Ro | Ro | Ro | Ro |  |
 
 </div>
@@ -50,19 +50,18 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
 - Badeutstyr, tøy, snorkel/dykkemaske, armringer
 - Badesko
 - Gode sko eller støvler
-- Regntøy etter værmelding
+- Regntøy
+- Vindjakke, det kan blåse godt dit vi skal
 - Skift/klær
 - Speiderskjorte/skjerf
 - Sovepose
 - Liggeunderlag
+- Myggnett(?)
+- Sengetøy (hvis du skal sove inne)
 - Kopp, tallerken, bestikk og drikkeflaske
 - Toalettsaker: tannbørste, tannkrem, håndkle, solkrem og myggmiddel
 - Evt. telt
 
-</div>
-
-<div class="info-box">
-  <p>Vi tar med redningsvester, men de kan være store for de aller minste.</p>
 </div>
 
 <div class="info-box">
@@ -74,12 +73,21 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
 
 <div class="cards">
   <div class="card">
+    <h3>Sove inne?</h3>
+    <p>Det er noen sengeplasser inne, men ikke nok til alle. Det er forventet at barna sover ute i telt. Ta gjerne med ditt eget telt, vi tar også med noen store telt. </p>
+  </div>
+  
+  <div class="card">
     <h3>Kiosk</h3>
     <p>Hver kveld arrangerer vi en liten kiosk. Send med litt penger så barna kan handle.</p>
   </div>
   <div class="card">
     <h3>Mobiltelefon</h3>
     <p>Vi samler inn telefonene under leiren slik at de ikke er tilgjengelige. Vurder derfor om det er nødvendig å ha den med.</p>
+  </div>
+  <div class="card">
+    <h3>Regningsvester</h3>
+    <p>Vi tar med redningsvester, men de kan være store for de aller minste.</p>
   </div>
 </div>
 
