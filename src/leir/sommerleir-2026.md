@@ -11,10 +11,6 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
   <p class="subtitle">Praktisk informasjon for deltakere og foreldre</p>
 </div>
 
-<p class="btn-center">
-  <a class="btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdn5SOVVW9iwyD-CHUcEJceULwcQ_sdnw7iaXoFPLQiwSw-KA/viewform?usp=dialog" target="_blank" rel="noopener">Meld deg på sommerleiren</a>
-</p>
-
 ## Når og hvor
 
 <ul class="activity-list">
