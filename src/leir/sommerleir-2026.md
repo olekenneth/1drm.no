@@ -30,7 +30,7 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
 | 08:30 |  | Frokost | Frokost | Frokost | Frokost |
 | 10:00 |  | Verdens ende | Haik | Pil og bue-laging | Nedrigg/lunsj |
 | 12:30 |  | Lunsj på Verdens ende | Lunsj | Lunsj | Lunsj/avreise |
-| 14:00 | Lunsj | Tur til Moutmarka | Haik | Aktivitet til leirbål | Avslutning på Øren skole |
+| 14:00 | Lunsj | Tur til Moutmarka | Haik | Rebusløp | Avslutning på Øren skole |
 | 16:00 | Middag | Middag | Middag | Middag |  |
 | 17:00 | Kiosk | Kiosk | Kiosk | Kiosk |  |
 | 20:00 | Leirbål | Leirbål | Leirbål | Avslutningsleirbål |  |
