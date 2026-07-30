@@ -97,3 +97,13 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
     <strong>Ida:</strong> <a href="tel:+4748142778">481 42 778</a></p>
   </div>
 </div>
+
+## Turnus
+
+| Patrulje | Lage frokost | Rydde frokost | Lage lunsj | Rydde lunsj | Lage middag | Rydde middag | Drive kiosk |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Gaupe | Torsdag | Fredag | Lørdag | Søndag | Torsdag | Fredag | Lørdag |
+| Bever | Fredag | Lørdag | Søndag | Torsdag | Fredag | Lørdag | Onsdag |
+| Bjørn | Lørdag | Søndag | Torsdag | Fredag | Lørdag | Torsdag | Fredag |
+| Ulv | Søndag | Torsdag | Fredag | Lørdag | Søndag | Onsdag | Torsdag |
+
