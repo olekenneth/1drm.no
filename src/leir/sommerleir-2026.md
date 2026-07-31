@@ -100,6 +100,8 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
 
 ## Turnus
 
+<div class="table-scroll">
+  
 | Patrulje | Lage frokost | Rydde frokost | Lage lunsj | Rydde lunsj | Lage middag | Rydde middag | Drive kiosk |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Gaupe | Torsdag | Fredag | Lørdag | Søndag | Torsdag | Fredag | Lørdag |
@@ -107,3 +109,4 @@ description: Praktisk informasjon for deltakere på sommerleiren 2026.
 | Bjørn | Lørdag | Søndag | Torsdag | Fredag | Lørdag | Torsdag | Fredag |
 | Ulv | Søndag | Torsdag | Fredag | Lørdag | Søndag | Onsdag | Torsdag |
 
+</div>
