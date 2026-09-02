@@ -9,7 +9,7 @@ description: 1. Drammen Speidergruppe driver speiding på Øren og Bragernes.
   <p class="lead">Speiding på Øren og Bragernes i Drammen</p>
   <div class="hero-links">
     <a href="https://spond.com/landing/group/QWKHM" class="btn" target="_blank" rel="noopener">Bli med på Spond</a>
-    <a href="https://min.speiding.no/register/in/group/2301" class="btn btn-outline" target="_blank" rel="noopener">Meld deg inn</a>
+    <a href="https://blispeider.no/grupper/1-drammen-speidergruppe/sok-om-plass" class="btn btn-outline" target="_blank" rel="noopener">Meld deg inn</a>
   </div>
 </div>
 
@@ -57,5 +57,5 @@ Vi har de fleste møter utendørs og driver med alt fra bål, friluftsliv, matla
   <h2>Bli speider!</h2>
   <p>Vil du prøve hva det er å være speider? Ta kontakt på Spond</p>
     <a href="https://spond.com/landing/group/QWKHM" class="btn" target="_blank" rel="noopener">Bli med på Spond</a>
-    <a href="https://min.speiding.no/register/in/group/2301" class="btn btn-outline" target="_blank" rel="noopener">Meld deg inn</a>
+    <a href="https://blispeider.no/grupper/1-drammen-speidergruppe/sok-om-plass" class="btn btn-outline" target="_blank" rel="noopener">Meld deg inn</a>
 </div>
