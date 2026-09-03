@@ -7,11 +7,7 @@ description: 1. Drammen Speidergruppe driver speiding på Øren og Bragernes.
 <div class="hero">
   <h1>1. Drammen Speidergruppe</h1>
   <p class="lead">Speiding på Øren og Bragernes i Drammen</p>
-  <div class="hero-links">
-    <a href="https://spond.com/landing/group/QWKHM" class="btn" target="_blank" rel="noopener">Bli med på Spond</a>
-    <a href="https://blispeider.no/grupper/1-drammen-speidergruppe/sok-om-plass" class="btn btn-outline" target="_blank" rel="noopener">Meld deg inn</a>
-  </div>
-</div>
+  {% set klasseId = "hero" %}{% include "klassevelger.njk" %}</div>
 
 <div class="cards">
   <div class="card">
@@ -24,7 +20,7 @@ description: 1. Drammen Speidergruppe driver speiding på Øren og Bragernes.
   </div>
   <div class="card">
     <h3>📱 Spond</h3>
-    <p>Vi bruker <a href="https://spond.com/landing/group/QWKHM" target="_blank" rel="noopener">Spond</a> for info om møter og arrangementer</p>
+    <p>Vi bruker <a href="https://spond.com/invite/NPFYI" target="_blank" rel="noopener">Spond</a> for info om møter og arrangementer</p>
   </div>
 </div>
 
@@ -55,7 +51,5 @@ Vi har de fleste møter utendørs og driver med alt fra bål, friluftsliv, matla
 
 <div class="cta">
   <h2>Bli speider!</h2>
-  <p>Vil du prøve hva det er å være speider? Ta kontakt på Spond</p>
-    <a href="https://spond.com/landing/group/QWKHM" class="btn" target="_blank" rel="noopener">Bli med på Spond</a>
-    <a href="https://blispeider.no/grupper/1-drammen-speidergruppe/sok-om-plass" class="btn btn-outline" target="_blank" rel="noopener">Meld deg inn</a>
-</div>
+  <p>Vil du prøve hva det er å være speider? Velg hvilken klasse barnet går i, så ser du hvordan dere melder dere på.</p>
+  {% set klasseId = "cta" %}{% include "klassevelger.njk" %}</div>
