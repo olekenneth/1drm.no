@@ -1,0 +1,33 @@
+<div class="klassevelger">
+  <fieldset class="klasse-valg">
+    <legend>Hvilken klasse går barnet i?</legend>
+    <div class="klasse-knapper">
+      <input class="klasse-radio klasse-radio--bever" type="radio" name="klasse-{{ klasseId }}" id="klasse-{{ klasseId }}-bever" />
+      <label for="klasse-{{ klasseId }}-bever">1.–2. klasse<span class="klasse-gruppe">Bever</span></label>
+      <input class="klasse-radio klasse-radio--smaspeider" type="radio" name="klasse-{{ klasseId }}" id="klasse-{{ klasseId }}-smaspeider" />
+      <label for="klasse-{{ klasseId }}-smaspeider">3.–4. klasse<span class="klasse-gruppe">Småspeider</span></label>
+      <input class="klasse-radio klasse-radio--tropp" type="radio" name="klasse-{{ klasseId }}" id="klasse-{{ klasseId }}-tropp" />
+      <label for="klasse-{{ klasseId }}-tropp">Fra 5. klasse<span class="klasse-gruppe">Troppen</span></label>
+    </div>
+  </fieldset>
+  <div class="klasse-svar" aria-live="polite">
+    <div class="klasse-panel klasse-panel--stengt klasse-panel--bever">
+      <h3>Bever har ikke åpen påmelding nå</h3>
+      <p>Vi har dessverre ikke ledig plass hos beverne (1.–2. klasse) for øyeblikket. Ta kontakt, så setter vi barnet på venteliste og gir beskjed så snart det blir ledig.</p>
+      <p class="klasse-kontakt"><strong>Ole-Kenneth:</strong> <a href="tel:+4790091999">900 91 999</a><br /><strong>Ida:</strong> <a href="tel:+4748142778">481 42 778</a></p>
+    </div>
+    <div class="klasse-panel klasse-panel--stengt klasse-panel--smaspeider">
+      <h3>Småspeider har ikke åpen påmelding nå</h3>
+      <p>Vi har dessverre ikke ledig plass hos småspeiderne (3.–4. klasse) for øyeblikket. Ta kontakt, så setter vi barnet på venteliste og gir beskjed så snart det blir ledig.</p>
+      <p class="klasse-kontakt"><strong>Ole-Kenneth:</strong> <a href="tel:+4790091999">900 91 999</a><br /><strong>Ida:</strong> <a href="tel:+4748142778">481 42 778</a></p>
+    </div>
+    <div class="klasse-panel klasse-panel--apen klasse-panel--tropp">
+      <h3>Troppen er åpen for påmelding</h3>
+      <p>Fra 5. klasse og oppover har vi ledige plasser. Bli med i gruppa på Spond for info om møter og turer, og meld barnet inn i speidergruppa.</p>
+      <div class="klasse-lenker">
+        <a href="https://spond.com/invite/NPFYI" class="btn" target="_blank" rel="noopener">Bli med på Spond</a>
+        <a href="https://blispeider.no/grupper/1-drammen-speidergruppe/sok-om-plass" class="btn btn-outline" target="_blank" rel="noopener">Meld deg inn</a>
+      </div>
+    </div>
+  </div>
+</div>

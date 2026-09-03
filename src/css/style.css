@@ -206,6 +206,132 @@ strong { color: #1a2e1a; }
 }
 .cta .btn:hover { background: #c8e6c9; }
 
+/* ---- Klassevelger (påmelding / innmelding) ---- */
+/* Panelene skjules kun der :has() finnes; ellers vises alle tre, slik at
+   ingen påmeldingsinfo blir utilgjengelig i eldre nettlesere. */
+.klassevelger {
+  max-width: 640px;
+  margin: 1.75rem auto 0;
+  text-align: left;
+}
+
+.klasse-valg { border: 0; padding: 0; }
+
+.klasse-valg legend {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 0.85rem;
+}
+
+.klasse-knapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+
+.klasse-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.klasse-knapper label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  min-height: 44px;
+  padding: 0.7rem 0.85rem;
+  border: 2px solid rgba(255,255,255,0.55);
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.klasse-knapper label:hover { background: rgba(255,255,255,0.15); border-color: #fff; }
+
+.klasse-gruppe {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #c8e6c9;
+  transition: color 0.15s;
+}
+
+.klasse-radio:checked + label {
+  background: #fff;
+  border-color: #fff;
+  color: #1b4d1b;
+}
+.klasse-radio:checked + label .klasse-gruppe { color: #2d6a2d; }
+
+.klasse-radio:focus-visible + label { outline: 3px solid #ffd54f; outline-offset: 2px; }
+
+.klasse-panel {
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.28);
+  border-radius: 10px;
+  text-align: center;
+}
+.klasse-panel h3 { margin: 0 0 0.5rem; color: #fff; font-size: 1.1rem; }
+.klasse-panel p { margin-bottom: 0.75rem; color: #e8f5e9; font-size: 0.98rem; }
+.klasse-panel p:last-child { margin-bottom: 0; }
+.klasse-panel strong { color: #fff; }
+.klasse-panel a:not(.btn) { color: #fff; text-decoration: underline; }
+.klasse-panel a:not(.btn):hover { color: #c8e6c9; }
+
+.klasse-panel--stengt { border-color: rgba(255,213,79,0.55); }
+.klasse-panel--stengt h3 { color: #ffe082; }
+.klasse-kontakt { font-size: 1.02rem; }
+
+.klasse-lenker {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.klasse-panel .btn {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  background: #fff;
+  color: #1b4d1b;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+.klasse-panel .btn:hover {
+  background: #c8e6c9;
+  border-color: #c8e6c9;
+  color: #1b4d1b;
+  transform: translateY(-1px);
+}
+
+.klasse-panel .btn-outline { background: transparent; color: #fff; border-color: rgba(255,255,255,0.7); }
+.klasse-panel .btn-outline:hover { background: rgba(255,255,255,0.15); border-color: #fff; color: #fff; }
+
+@supports selector(:has(*)) {
+  .klasse-panel { display: none; }
+  .klassevelger:has(.klasse-radio--bever:checked) .klasse-panel--bever { display: block; }
+  .klassevelger:has(.klasse-radio--smaspeider:checked) .klasse-panel--smaspeider { display: block; }
+  .klassevelger:has(.klasse-radio--tropp:checked) .klasse-panel--tropp { display: block; }
+}
+
 /* ---- Standalone button ---- */
 .btn-primary {
   display: inline-block;
